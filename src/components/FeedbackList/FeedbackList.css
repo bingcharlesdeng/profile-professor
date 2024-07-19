@@ -1,0 +1,18 @@
+/* src/components/FeedbackList/FeedbackList.css */
+
+.feedback-list {
+    margin-top: 2rem;
+  }
+  
+  .feedback-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feedback-date {
+    font-size: 0.8rem;
+    color: #6c757d;
+  }

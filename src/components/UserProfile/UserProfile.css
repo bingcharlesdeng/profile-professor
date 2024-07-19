@@ -1,0 +1,30 @@
+.user-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  .profile-facet {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+  }
+  
+  .profile-facet h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .edit-button {
+    background-color: #008CBA;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .edit-button:hover {
+    background-color: #007B9A;
+  }

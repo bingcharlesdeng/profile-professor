@@ -1,0 +1,49 @@
+/* src/components/GroupList/GroupList.css */
+
+.group-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .group-list h2 {
+    margin-top: 20px;
+  }
+  
+  .group-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .group-list button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .group-list button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .search-bar button {
+    margin-left: 10px;
+  }
